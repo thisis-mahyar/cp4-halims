@@ -8,5 +8,5 @@ int main() {
 
     cin >> s >> n;
 
-    ((s == "OCT" && n == 31) || (s == "DEC" && n == 25)) ? "yup" : cout << "nope";
+    ((s == "OCT" && n == 31) || (s == "DEC" && n == 25)) ? cout << "yup" : cout << "nope";
 }
